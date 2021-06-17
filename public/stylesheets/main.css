@@ -1,0 +1,33 @@
+body {
+  background-image: url(http://i.imgur.com/K3mPv14.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  /*background-position: 50% 50%;*/
+  position: absolute;
+}
+
+#main-header {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+#main-header h1 {
+  color: #fff;
+}
+
+.myimage {
+  background-image: url(http://i.imgur.com/K3mPv14.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  width: 100%;
+  height: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  /*background-position: 50% 50%;*/
+  position: absolute;
+}
